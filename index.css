@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+}
+
+#info-profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#img-profile {
+  width: 10rem;
+  border-radius: 10rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  margin-top: 10rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 2rem;
+  width: 30rem;
+  height: 50rem;
+  margin-bottom: 10rem;
+}
+
+p {
+  color: aliceblue;
+}
+
+.action-buttons {
+  padding-top: 2rem;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+li {
+  text-align: center;
+  background-color: hsl(0, 0%, 20%);
+  list-style-type: none;
+  color: aliceblue;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1.2rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+
+#location {
+  color: hsl(75, 94%, 57%);
+}
+
+#name-profile {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
