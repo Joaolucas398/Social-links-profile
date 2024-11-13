@@ -29,8 +29,8 @@ body {
   background-color: hsl(0, 0%, 12%);
   border-radius: 2rem;
   width: 30rem;
-  height: 50rem;
-  margin-bottom: 10rem;
+  height: 40rem;
+  margin-bottom: 5rem;
 }
 
 p {
@@ -61,6 +61,10 @@ li {
 
 #location {
   color: hsl(75, 94%, 57%);
+}
+
+a {
+  text-decoration: none;
 }
 
 #name-profile {
